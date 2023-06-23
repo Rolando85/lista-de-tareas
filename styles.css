@@ -34,9 +34,7 @@ body {
   }
   .contenedor form{
     width: 60%;
-    /* border: solid red 1px; */
     margin: 10px auto;
-    /* background-color: blue; */
     border-radius: 5px;
   }
   .contenedor form button{
@@ -53,10 +51,7 @@ body {
     border: none;
   }
   .cont_ul{
-    /* position: relative; */
-    /* border: solid black 1px; */
     background-color: rgb(73, 7, 92);
-    /* box-shadow: 0 0 6px 1px rgb(247, 105, 247); */
     border-radius: 5px;
     width: 100%;
     margin: 10px auto;
@@ -120,7 +115,6 @@ body {
     margin: 10px 0;
     padding-left: 10px;
     border-radius: 5px;
-    /* background-color: antiquewhite; */
   }
   
   .completed {
@@ -137,5 +131,8 @@ body {
     .contenedor{
         width: 100%;
     }
+    .contenedor form{
+        width: 80%;
+      }
   }
 

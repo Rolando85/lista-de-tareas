@@ -8,7 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Función para renderizar las tareas en la lista
     function renderTasks() {
-        taskList.innerHTML = '';
+                    taskList.innerHTML= `
+                    
+                    `;
         tasks.forEach(function(task, index) {
           const li = document.createElement('li');
           li.textContent = task.text;
